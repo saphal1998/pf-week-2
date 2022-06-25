@@ -13,6 +13,7 @@ contract DeadManSwitch is Ownable {
         }
         if(block.number - lastOwnerBlock > 10) {
             uint balance = address(this).balance;
+            // this was balance by 2 in the contract for testing purposes
             payable(ethReceiver).transfer(balance);
             emit TransferComplete(address(this), ethReceiver, balance);
         }
