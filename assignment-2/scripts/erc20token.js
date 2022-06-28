@@ -9,7 +9,7 @@ use(Web3ClientPlugin)
 const privateKey = secrets.seed
 const userAddress = secrets.address
 const rootToken = "0xdF299248f00cECB85A948D3d57541f00bdA793A6";
-const amount = "1000000";
+const amount = "1000000000000000";
 
 const getPOSClient = (network = 'testnet', version = 'mumbai') => {
   const posClient = new POSClient()
