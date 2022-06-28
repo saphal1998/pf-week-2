@@ -3,6 +3,7 @@ const { abi: UniswapV3Factory } = require('@uniswap/v3-core/artifacts/contracts/
 require('dotenv').config()
 const INFURA_URL_TESTNET = process.env.INFURA_URL_TESTNET
 
+// https://mumbai.polygonscan.com/tx/0xdbd12eb68e8f143c5511ed9736b24ce730232958d8b59b7b34b4009f2ff22540
 const address0 = '0xBa048069ad252B6c5C04724d71631c32d165F376'
 const address1 = '0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889'
 const factoryAddress = '0x1F98431c8aD98523631AE4a59f267346ea31F984'
